@@ -1,6 +1,6 @@
 # Samurai Sushi
 
-Link do site : [Samurai Sushi]([https://link-url-here.org](https://guilherme-brito-dac.github.io/Samurai-Sushi/))
+Link do site : [Samurai Sushi](https://guilherme-brito-dac.github.io/Samurai-Sushi/)
 
 Na landing page do Sushi Samurai, convidamos você a embarcar em uma jornada culinária extraordinária que combina a autenticidade da culinária japonesa com uma abordagem inovadora. Entre no nosso mundo de sabores exóticos e artesanato culinário, onde cada peça de sushi é uma obra de arte.
  
