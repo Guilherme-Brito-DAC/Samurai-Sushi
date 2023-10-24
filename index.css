@@ -1,0 +1,346 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Noto+Serif+JP&display=swap');
+
+:root {
+    --color-neutral-dark: #0a0a0a;
+    --color-neutral-medium-dark: #232323;
+    --color-neutral-medium: #191919;
+    --color-neutral-medium-light: #2e2e2e;
+    --color-neutral-light: #d7d7d9;
+    --color-neutral-lightest: #ffffff;
+
+    --color-primary: #e32a37;
+    --box-shadow: 0px 16px 32px rgba(0, 0, 0, 0.080);
+}
+
+body {
+    background-color: var(--color-neutral-medium);
+    color: var(--color-neutral-lightest);
+    font-family: 'Quicksand', sans-serif;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h5 {
+    font-size: 20px;
+}
+
+h6 {
+    font-size: 15px;
+}
+
+.logo {
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    font-size: 120px;
+    margin-bottom: 2rem;
+    font-family: 'Noto Serif JP', serif;
+}
+
+header {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+header h1 {
+    z-index: 2;
+}
+
+header img {
+    object-fit: cover;
+    filter: saturate(0.6) brightness(0.6);
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    display: block;
+}
+
+.especialidades,
+.pratos,
+.contato {
+    padding: 0 10rem;
+}
+
+.pratos {
+    text-align: center;
+}
+
+.produtos {
+    margin-top: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 1rem;
+}
+
+.produto img {
+    object-fit: cover;
+    width: 20rem;
+    height: 30rem;
+    filter: saturate(1);
+    box-shadow: var(--box-shadow);
+}
+
+.produto h4 {
+    margin: 1.5rem;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.produto p {
+    letter-spacing: 2px;
+    opacity: 0.8;
+}
+
+.especialidades {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 2%;
+    margin-bottom: 5rem;
+}
+
+.especialidade {
+    text-align: center;
+    width: 35%;
+    height: 15rem;
+    background-color: var(--color-primary);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    box-shadow: var(--box-shadow);
+}
+
+.label-chamativa {
+    color: var(--color-primary);
+    font-style: italic;
+    font-size: 30px;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 2rem;
+}
+
+.pratos h3,
+.contato h3 {
+    margin-bottom: 2rem;
+}
+
+.contato {
+    text-align: center;
+}
+
+.citacao {
+    width: 100%;
+    text-align: center;
+    padding: 5rem 0;
+
+    background-color: var(--color-neutral-medium);
+    background-image: url('https://png.pngtree.com/png-clipart/20211018/ourmid/pngtree-flame-burning-red-realism-png-image_3977686.png');
+    background-blend-mode: hard-light;
+    filter: saturate(0) brightness(0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    margin: 5rem 0;
+
+    color: white;
+}
+
+.citacao-label {
+    font-size: 45px;
+    font-style: italic;
+    font-family: 'Great Vibes', cursive;
+}
+
+.nome {
+    margin-top: 1rem;
+    text-transform: uppercase;
+}
+
+.filosofia {
+    padding: 5rem 10rem;
+    display: flex;
+    align-items: center;
+    background-color: var(--color-neutral-medium-light);
+    filter: brightness(0.7);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 5rem;
+    gap: 80px;
+}
+
+.filosofia label {
+    opacity: 0.9;
+    font-size: 17px;
+    line-height: 30px;
+}
+
+footer {
+    background-color: var(--color-neutral-dark);
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.footer-body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.redes-sociais {
+    display: flex;
+    filter: invert(100);
+    gap: 30px;
+}
+
+.localizacoes {
+    opacity: 0.7;
+}
+
+.horarios div {
+    display: flex;
+    justify-content: space-between;
+    opacity: 0.7;
+    margin: 0.5rem 0;
+}
+
+.redes-sociais img {
+    object-fit: cover;
+    width: 30px;
+    cursor: pointer;
+}
+
+.copyright {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.formulario {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+.formulario div {
+    display: flex;
+    width: 30%;
+    margin-bottom: 1rem;
+    justify-content: space-between;
+}
+
+input,
+select {
+    padding: 0.5rem;
+    background: none;
+    border: 0;
+    outline: none;
+    width: 15rem;
+    border: 2px solid var(--color-neutral-medium-light);
+    color: var(--color-neutral-light);
+    font-size: 15px;
+}
+
+button {
+    color: var(--color-neutral-light);
+    background: var(--color-neutral-medium-light);
+    border: 0;
+    outline: none;
+    padding: 0.7rem 2rem;
+    text-transform: uppercase;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 1000px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4,
+    h5,
+    h6 {
+        font-size: 15px;
+    }
+
+    footer {
+        padding: 2rem;
+    }
+
+    .especialidades,
+    .pratos,
+    .contato {
+        padding: 0 3rem;
+    }
+
+    .especialidades,
+    .produtos,
+    .filosofia {
+        flex-wrap: wrap;
+    }
+
+    .especialidade {
+        width: 100%;
+    }
+
+    .especialidade,
+    .produto {
+        margin-bottom: 2rem;
+    }
+
+    .filosofia {
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .footer-body,
+    .copyright {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .formulario div {
+        width: 100%;
+        gap: 1rem;
+    }
+    
+}
